@@ -36,4 +36,14 @@ print(str_arr.dtype)
 # 随机数生成数组
 samples = np.random.normal(size=(4,4))
 print(samples)
-#
+#而Python内置的random模块则一次只能生成一个样本值。从下面代码的运行结果中可以看出，
+#如果需要产生大量的样本值，使用NumPy的random模块执行时间快了不止一个数量级。
+from random import normalvariate
+import time 
+n = 1000000
+start = time.time()
+samples = [normalvariate(0,1) for _ in range(n)]
+times = np.random.normal(size=n)
+end=time.time()
+print(end-start)
+
