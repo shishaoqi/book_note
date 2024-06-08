@@ -74,6 +74,7 @@ func (p *Pool) Close() {
 
 func (p *Pool) CloseWithTimeOut(timeout time.Duration) error {
 }
+
 func (p *Pool) IsClosed() bool {
 }
 

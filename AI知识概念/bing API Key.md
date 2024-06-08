@@ -20,3 +20,8 @@ e8947f61cbd74c03a7ceab5e830e494e
 
 Custom Configuration ID:
 780cd651-ec47-4dbe-910f-88fc2a2651f8
+
+
+### Quickstart: Call your Bing Custom Search endpoint using Python
+
+https://learn.microsoft.com/en-us/bing/search-apis/bing-custom-search/quickstarts/rest/python
