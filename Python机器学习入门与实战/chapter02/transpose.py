@@ -1,3 +1,4 @@
+# 【程序代码清单 2.28】NumPy模块transpose()方法实现数组转置
 import numpy as np
 
 arr=np.array([
