@@ -21,16 +21,3 @@ print(arr_T)
 
 
 # y = ax1 + bx2 + cx3 + dx4 式子
-
-
-network:
-    version: 2
-    renderer: NetworkManager
-    ethernets:
-        ens33:
-            dhcp4: yes
-            addresses:
-                - 192.168.2.100/24
-            gateway4: 192.168.2.1
-            nameservers:
-                addresses: [114.114.114.114, 8.8.4.4]

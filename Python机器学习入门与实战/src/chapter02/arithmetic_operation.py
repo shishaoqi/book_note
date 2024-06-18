@@ -18,23 +18,21 @@ print(divide_arr)
 print("数组与标量值的乘法运算")
 print(multi_arr)
 
-print("\n")
-
+print("\n数组广播的原则")
 #2.3.1　数组广播的原则
 
 #距平是一个大气科学术语，一般是指统计学中通常所称的“离差”，
 #也就是一组数据中的某一个数与平均数之间的差。
-
 weathers = np.array([
     [20,21,22,18,19,21,22],
     [18,21,23,19,18,21,13],
     [18,19,22,21,21,17,16],
-    [15,18,20,19,21,17,18]
+    [15,18,20,19,21,18,18] # 把倒数第二个从17改为18，让数据好观察
 ])
-print(weathers.mean(0))
+print('\nmean(0): ', weathers.mean(0))
 meaned=weathers-weathers.mean(0) # y轴（列方向） -- mean(0)是在0轴上进行广播
-print(meaned)
-print(meaned.mean(0))
+print('\n', meaned)
+print('\n', meaned.mean(0))
 
 
 weathers = np.array([
@@ -43,6 +41,7 @@ weathers = np.array([
     [18,19,22,21,21,17,16],
     [15,18, 20,19,21,17,18]
 ])
+print('\nx轴（行方向）  #reshap((4,1))是把行平均值的开关变成（4，1）:')
 print(weathers.mean(1).reshape((4,1))) # x轴（行方向）  #reshap((4,1))是把行平均值的开关变成（4，1）
 meaned=weathers-weathers.mean(1).reshape((4,1)) 
 print(meaned)
