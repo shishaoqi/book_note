@@ -1,0 +1,4 @@
+prompt,seed,initial_image,output 0,output 1,flag,username,timestamp
+aaaaxxxx,770,flagged\initial_image\db20134b314c4e947888\2018052516512966.jpg,Used seed: 770,flagged\output 1\5d16af6cda198b570c95\09f.png,,,2024-06-18 19:13:47.378767
+aaaaxxxx,770,flagged\initial_image\71c92ef7f260e2f1f753\2018052516512966.jpg,Used seed: 770,flagged\output 1\a86dd003c76bf39c419c\09f.png,,,2024-06-18 19:13:50.802225
+'-2,multiply,4,'-8,,,2024-06-18 19:15:11.012465

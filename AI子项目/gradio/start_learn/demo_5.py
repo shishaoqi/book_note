@@ -29,6 +29,7 @@ demo = gr.Interface(
     ],
     title="Toy Calculator",
     description="Here's a sample toy calculator. Allows you to calculate things like $2+2=4$",
+    flagging_dir="./demo_5.csv"
 )
 
 demo.launch()

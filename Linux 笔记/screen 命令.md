@@ -1,5 +1,15 @@
 `screen` 是一个功能强大的命令行工具，用于在 Unix 和类 Unix 系统中多任务处理。使用 `screen`，您可以在一个窗口中启动多个会话，并且可以轻易地在它们之间切换，就像使用多个终端一样。以下是一些基本的 `screen` 使用方法：
 
+0. **重新连接到会话**：  
+    使用 -r（或 --remote）选项和会话的名称或 PID 来重新连接。例如，如果您知道会话名称是 mysession：
+    ```
+    screen -r mysession
+    ```
+    或者，如果您知道会话的 PID，可以使用以下命令：
+    ```
+    screen -x PID
+    ```
+
 1. **启动一个新的 screen 会话**:
    ```sh
    screen
@@ -52,7 +62,7 @@
 
 11. **杀死一个 screen 会话**:
     ```sh
-    screen -X -S sessionname quit
+    screen -X -S sessionname(or PID) quit
     ```
 
 12. **配置 screen**:
