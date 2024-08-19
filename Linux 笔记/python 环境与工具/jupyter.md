@@ -3,7 +3,7 @@
 jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
 
 ### 报错
-1. Jupyter command `jupyter-lab` not found. -- pip show jupyterlab
+1. Jupyter command `jupyter-lab` not found. ---- pip install jupyterlab
 
 
 

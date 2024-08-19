@@ -25,3 +25,11 @@ print(blank)
 blank.rstrip()
 print(blank)
 # 可以剔除字符串开头的空白，或者同时剔除字符串两边的空白。为此，可分别使用方法lstrip() 和strip()
+
+
+# ``` ``` 用法
+str = """\
+A multiline string
+starts and ends with \
+a triple quotation mark."""
+print(str)
