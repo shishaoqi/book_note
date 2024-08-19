@@ -8,15 +8,15 @@ docker run -itd --runtime=nvidia --gpus=all -e NVIDIA_DRIVER_CAPABILITIES=comput
 
 docker --help
 docker pull pytorch/pytorch:latest #拉取仓库
-docker images #查看镜像
-docker ps	#查看运行着的容器
-docker ps -a #查看所有容器
+docker images   #查看镜像
+docker ps	    #查看运行着的容器
+docker ps -a    #查看所有容器
 docker exec -it container-id /bin/bash # 进入容器 
 ctrl+D # 退出容器
-docker start container-id # 启动容器
-docker stop container-id # 停止容器
-docker rmi image-id 	# 删除镜像
-docker rm container-id 	# 删除容器
+docker start container-id   # 启动容器
+docker stop container-id    # 停止容器
+docker rmi image-id 	    # 删除镜像
+docker rm container-id 	    # 删除容器
 
 systemctl stop docker.service # 停止docker服务
 systemctl start docker.service # 开启docker服务
