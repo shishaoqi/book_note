@@ -13,7 +13,7 @@ class Ship:
         self.rect = self.image.get_rect()
 
         # 对于每艘新飞船，都将其放在屏幕底部的中央。
-        self.rect.midbottom = self.screen_rect.midbottom
+        self.rect.midbottom = self.screen_rect.midbottom #我们要将飞船放在屏幕底部的中央。为此，将self.rect.midbottom 设置为表示屏幕的矩形的属性midbottom
     
     def blitme(self):
         """在指定位置绘制飞船。"""
