@@ -4,13 +4,14 @@ docker build -t myubuntu:v1 . # build Dockerfile
 docker pull nvidia/cuda:10.2-devel-ubuntu18.04 # 拉取远端镜像
 
 docker run -itd --runtime=nvidia --gpus=all -e NVIDIA_DRIVER_CAPABILITIES=compute,utility,video,graphics -v /root/Documents/xxx:/data/ --name test --privileged=true -v /dev/shm:/dev/shm -p 49154:22 IMAGE_ID /bin/bash
-# -it必备 d表示在背景里运行; -v 磁盘挂载 本地绝对路径:容器的绝对路径; --name 给你的container取个响亮的芳名;-v /dev/shm:/dev/shm 共享内存; image ID; /bin/bash 执行命令; -p 端口映射 -p 49154:22
+# -it必备 -d表示在背景里运行; -v 磁盘挂载 本地绝对路径:容器的绝对路径; --name 给你的container取个响亮的芳名; -v /dev/shm:/dev/shm 共享内存; image ID; /bin/bash 执行命令; -p 端口映射 -p 49154:22
 
 docker --help
 docker pull pytorch/pytorch:latest #拉取仓库
 docker images   #查看镜像
 docker ps	    #查看运行着的容器
 docker ps -a    #查看所有容器
+
 docker exec -it container-id /bin/bash # 进入容器 
 ctrl+D # 退出容器
 docker start container-id   # 启动容器
@@ -57,7 +58,7 @@ docker: Error response from daemon: unknown or invalid runtime name: nvidia.
 
 以上报错解决：
 ```
-apt install -y nvidia-docker2 # 安装nvidia-docker
+sudo apt install -y nvidia-docker2 # 安装nvidia-docker
 
 sudo apt-get install nvidia-container-runtime
 
