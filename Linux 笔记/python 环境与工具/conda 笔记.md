@@ -5,6 +5,7 @@ Anaconda是一个功能强大的Python发行版，特别适用于科学计算、
 1. 创建新环境：
 
     conda create --name myenv python=3.8  
+    conda create --name chat-server python=3.10
     myenv 是新环境的名称，python=3.8 指定了Python版本。  
 
 2. 激活环境：  

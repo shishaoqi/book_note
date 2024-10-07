@@ -1,0 +1,134 @@
+version: '3.8'
+
+services:
+  gpu-0:
+    build: .
+    container_name: gpu-0
+    ports:
+      - "11440:11434"
+      - "9004:9004"
+    volumes:
+      - ./gpu-0-code:/root/code
+      - ./models:/llm-model
+    restart: always
+    networks:
+      gpu_net:
+        ipv4_address: 172.16.26.10
+    tty: true
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=0  # 指定容器可以使用的 GPU 编号
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: ["gpu"]
+              device_ids: ["0"]
+
+  gpu-1:
+    build: .
+    container_name: gpu-1
+    ports:
+      - "11441:11434"
+      - "9005:9005"
+    volumes:
+      - ./gpu-1-code:/root/code
+      - ./models:/llm-model
+    restart: always
+    networks:
+      gpu_net:
+        ipv4_address: 172.16.26.11
+    tty: true
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=1
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: ["gpu"]
+              device_ids: ["1"]
+
+  gpu-2:
+    build: .
+    container_name: gpu-2
+    ports:
+      - "11442:11434"
+      - "9006:9006"
+    volumes:
+      - ./gpu-2-code:/root/code
+      - ./models:/llm-model
+    restart: always
+    networks:
+      gpu_net:
+        ipv4_address: 172.16.26.12
+    tty: true
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=2
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: ["gpu"]
+              device_ids: ["2"]
+
+  gpu-3:
+    build: .
+    container_name: gpu-3
+    ports:
+      - "11443:11434"
+      - "9007:9007"
+    volumes:
+      - ./gpu-3-code:/root/code
+      - ./models:/llm-model
+    restart: always
+    networks:
+      gpu_net:
+        ipv4_address: 172.16.26.13
+    tty: true
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=3
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: ["gpu"]
+              device_ids: ["3"]
+
+  gpu-4:
+    build: .
+    container_name: gpu-4
+    ports:
+      - "11444:11434"
+      - "9008:9008"
+    volumes:
+      - ./gpu-4-code:/root/code
+      - ./models:/llm-model
+    restart: always
+    networks:
+      gpu_net:
+        ipv4_address: 172.16.26.14
+    tty: true
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=4
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              capabilities: ["gpu"]
+              device_ids: ["4"]
+
+networks:
+  gpu_net:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.16.26.0/24
+          gateway: 172.16.26.1
+
+volumes:
+  gpu_data:
+    driver: local

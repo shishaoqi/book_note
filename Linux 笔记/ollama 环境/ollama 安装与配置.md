@@ -22,3 +22,9 @@ sudo systemctl stop ollama
 要查看作为启动服务运行的Ollama的日志，请运行：
 
 journalctl -u ollama
+
+
+
+sudo systemctl stop ollama
+
+sudo tar -xzf - -C /usr/local
