@@ -124,6 +124,16 @@ networks:
         - subnet: 172.16.26.0/24
           gateway: 172.16.26.1
 
-volumes:
-  gpu_data:
-    driver: local
+
+
+
+
+
+
+
+
+
+
+#!/bin/bash
+systemctl start redis
+systemctl start ollama
