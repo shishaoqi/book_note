@@ -5,6 +5,8 @@ jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
 ### 报错
 1. Jupyter command `jupyter-lab` not found. ---- pip install jupyterlab
 
+pip install jupyterlab
+
 
 
 ### 要将Conda创建的环境添加到Jupyter的“Select kernel”选项中
