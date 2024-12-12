@@ -1,0 +1,75 @@
+TEMPLATE """
+{{- if .Messages }}
+    {{- if or .System .Tools }}<|im_start|>system
+        {{- if .System }}
+            <!-- 如果存在系统消息，则显示系统消息 -->
+            {{ .System }}
+        {{- end }}
+        {{- if .Tools }}
+            <!-- 如果存在工具，则显示工具列表 -->
+            <tools>
+                {{- range .Tools }}
+                    <!-- 遍历工具并显示每个工具的函数签名 -->
+                    {"type": "function", "function": {{ .Function }}}
+                {{- end }}
+            </tools>
+        {{- end }}
+    <|im_end|>
+    {{- end }}
+    {{- range $i, $_ := .Messages }}
+        <!-- 遍历所有消息 -->
+        {{- $last := eq (len (slice $.Messages $i)) 1 -}}
+        {{- if eq .Role "user" }}
+            <!-- 如果消息角色是用户，则标记为用户消息的开始，并显示内容 -->
+            <|im_start|>user
+            {{ .Content }}
+            <|im_end|>
+        {{ else if eq .Role "assistant" }}
+            <!-- 如果消息角色是助手，根据内容显示助手消息 -->
+            <|im_start|>assistant
+            {{ if .Content }}
+                {{ .Content }}
+            {{- else if .ToolCalls }}
+                <!-- 如果存在工具调用，则显示工具调用 -->
+                <tool_call>
+                    {{ range .ToolCalls }}
+                        {"name": "{{ .Function.Name }}", "arguments": {{ .Function.Arguments }}}
+                    {{ end }}
+                </tool_call>
+            {{- end }}
+            {{ if not $last }}
+                <|im_end|>
+            {{ end }}
+        {{- else if eq .Role "tool" }}
+            <!-- 如果消息角色是工具，则标记为工具消息的开始，并显示内容 -->
+            <|im_start|>user
+            <tool_response>
+                {{ .Content }}
+            </tool_response>
+            <|im_end|>
+        {{- end }}
+        {{- if and (ne .Role "assistant") $last }}
+            <|im_start|>assistant
+        {{ end }}
+    {{- end }}
+{{- else }}
+    {{- if .System }}
+        <!-- 如果存在系统消息，则标记为系统消息的开始，并显示系统消息 -->
+        <|im_start|>system
+        {{ .System }}
+        <|im_end|>
+    {{- end }}
+    {{ if .Prompt }}
+        <!-- 如果存在用户提示，则标记为用户消息的开始，并显示用户提示 -->
+        <|im_start|>user
+        {{ .Prompt }}
+        <|im_end|>
+    {{ end }}
+    <|im_start|>assistant
+    <!-- 标记为助手消息的开始，并显示助手的响应 -->
+    {{ .Response }}
+    {{ if .Response }}
+        <|im_end|>
+    {{ end }}
+{{- end }}
+"""

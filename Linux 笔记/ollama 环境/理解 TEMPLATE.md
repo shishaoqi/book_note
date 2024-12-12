@@ -79,3 +79,20 @@ TEMPLATE """{{- if .Messages }}
 - 测试`TEMPLATE`以确保它按照预期工作，特别是在处理不同的消息角色和工具调用时。
 
 通过遵循这些指导原则，你可以正确地书写和理解Ollama中的`TEMPLATE`，从而有效地控制对话流程和消息格式化。
+
+
+### 如何理解
+在提供的`TEMPLATE`字符串中，`{{- if .Messages }}`是一个条件判断，它检查是否存在`.Messages`字段，如果存在，则执行其内部的代码块。这个代码块会在处理完所有`.Messages`相关的内容后结束。
+
+在`TEMPLATE`中，`{{- if .Messages }}`的结束点是在与之对应的闭合标签`{{- end }}`处。这个闭合标签标志着`{{- if .Messages }}`条件块的结束。在Go模板中，每个`{{- if }}`都必须有一个对应的`{{- end }}`来关闭条件块。
+
+在你提供的`TEMPLATE`字符串中，`{{- if .Messages }}`的结束点是在以下这段代码之后：
+
+```plaintext
+{{- if and (ne .Role "assistant") $last }}<|im_start|>assistant
+{{ end }}
+```
+
+这里的`{{ end }}`就是关闭`{{- if .Messages }}`的标签。这意味着，一旦处理完所有`.Messages`字段中的信息，并且遍历完所有消息，`TEMPLATE`中的这个条件块就会结束。
+
+简而言之，`{{- if .Messages }}`会在处理完所有与之相关的逻辑后结束，具体的结束点是由与之匹配的`{{ end }}`标签决定的。在模板中，这种结构确保了代码的逻辑清晰和正确闭合。
