@@ -5,8 +5,13 @@ jupyter lab --ip=0.0.0.0 --port=8888 --no-browser
 ### 报错
 1. Jupyter command `jupyter-lab` not found. ---- pip install jupyterlab
 
-pip install jupyterlab
+conda create --name fine-tune-qwen2.5_conversation python=3.10
+conda activate fine-tune-qwen2.5_conversation
 
+pip install jupyterlab
+conda install ipython
+conda install ipykernel
+python -m ipykernel install --user --name=fine-tune-qwen2.5_conversation --display-name="fine-tune-qwen2.5_conversation"
 
 
 ### 要将Conda创建的环境添加到Jupyter的“Select kernel”选项中

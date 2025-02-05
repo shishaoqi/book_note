@@ -3,7 +3,7 @@
 ### Installing the NVIDIA Container Toolkit
 https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
 
-### tolas--2
+### tolas--2 -----（后来使用 docker-compose 重新安装过，下面的已弃用）
 docker pull nvidia/cuda:12.2.2-devel-ubuntu22.04
 
 sudo docker run -dit --runtime=nvidia --gpus=0 -p 9002:9002 -v ./gpu-0-code:/root/code -v ./models:/llm-model  --name=gpu-0 nvidia/cuda:12.2.2-devel-ubuntu22.04
