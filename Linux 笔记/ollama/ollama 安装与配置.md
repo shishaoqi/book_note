@@ -28,3 +28,9 @@ journalctl -u ollama
 sudo systemctl stop ollama
 
 sudo tar -xzf - -C /usr/local
+
+
+### 配置
+vim /etc/systemd/system/ollama.service 
+Environment="OLLAMA_HOST=0.0.0.0:11434"
+Environment="OLLAMA_KEEP_ALIVE=30m"
