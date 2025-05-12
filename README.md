@@ -2,5 +2,5 @@
 
 ## 大纲
 
--  [PDF阅读笔记123](./PDF阅读笔记/README)
-- [Python README](python语法学习目录.md)
+-  [PDF阅读笔记](./PDF阅读笔记/README)
+- [Python目录](python目录.md)

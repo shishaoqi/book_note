@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDF阅读笔记/README.md",
+                "file": "AI/AI子项目/README.md",
                 "mode": "source",
                 "source": false
               },
@@ -171,11 +171,19 @@
   "active": "5f08fb4abb26b86f",
   "lastOpenFiles": [
     "README.md",
-    "Qwen2 笔记/实现Qwen2利用外部数据.md",
+    "Python/python目录.md",
+    "PDF阅读笔记/README.md",
+    "AI/AI子项目/README.md",
+    "go/myRoutinePools/README.md",
+    "AI/modelscope 网站.md",
+    "前端",
+    "AI/bing API Key.md",
+    "Linux 笔记/网络/vpn协议.png",
+    "AI/Qwen2 笔记/实现Qwen2利用外部数据.md",
     "Python/python 环境与工具/conda 笔记.md",
     "Python/python 环境与工具/环境报错.md",
     "Python/python 环境与工具/vscode 开启 python 调试.md",
-    "RAG/README.md",
+    "AI/RAG/README.md",
     "Linux 笔记/内存条性能测试.md",
     "PDF阅读笔记/机器学习基础-pdf/第1章.md",
     "PDF阅读笔记/机器学习基础-pdf/概念.md",
@@ -189,13 +197,11 @@
     "PDF阅读笔记/时间人格：为什么你的时间管理没有用",
     "PDF阅读笔记/向上认知/第一部分.md",
     "PDF阅读笔记/向上认知",
-    "PDF阅读笔记/README.md",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter03/__pycache__/pandas.cpython-311.pyc",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter03/__pycache__/pandas.cpython-310.pyc",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter04/demo_3.py",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter04/demo_2.py",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter04/demo_4.py",
-    "PDF阅读笔记/Python机器学习入门与实战/src/chapter04/demo_1.py",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
     "PDF阅读笔记/Python机器学习入门与实战/第4章.md",
     "PDF阅读笔记/Python机器学习入门与实战/第3章.md",
@@ -204,12 +210,6 @@
     "PDF阅读笔记/PyTorch深度学习-pdf/00总纲.md",
     "PDF阅读笔记/DL_cn/第1章.md",
     "Python/python爬虫/README.md",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
-    "Python/python语法学习/Python学习手册（原书第4版）/模块.md",
-    "Python/python语法学习/Python学习手册（原书第4版）/Python学习手册（原书第4版）目录.md",
-    "Python/python语法学习/Python学习手册（原书第4版）/类和OOP.md",
-    "Python/python语法学习目录.md",
-    "网络/vpn协议.png",
     "Python canvas.canvas"
   ]
 }
