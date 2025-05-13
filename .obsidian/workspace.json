@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/MCP/MCP解决了什么问题.md",
+                "file": "Obsidian操作学习/进阶.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCP解决了什么问题"
+              "title": "进阶"
             }
           }
         ]
@@ -170,12 +170,16 @@
   },
   "active": "5f08fb4abb26b86f",
   "lastOpenFiles": [
-    "AI/AI子项目/README.md",
-    "AI/MCP/MCP解决了什么问题.md",
-    "AI/MCP",
+    "Obsidian操作学习/Obsidian 入门目录.md",
+    "Obsidian操作学习/markdown演示文件.md",
+    "Obsidian操作学习/进阶.md",
     "README.md",
-    "Python/python目录.md",
     "PDF阅读笔记/README.md",
+    "AI/MCP/MCP解决了什么问题.md",
+    "引用",
+    "AI/AI子项目/README.md",
+    "AI/MCP",
+    "Python/python目录.md",
     "go/myRoutinePools/README.md",
     "AI/modelscope 网站.md",
     "前端",
@@ -202,14 +206,10 @@
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter03/__pycache__/pandas.cpython-311.pyc",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter03/__pycache__/pandas.cpython-310.pyc",
     "PDF阅读笔记/Python机器学习入门与实战/src/chapter04/demo_3.py",
-    "PDF阅读笔记/Python机器学习入门与实战/src/chapter04/demo_2.py",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
     "PDF阅读笔记/Python机器学习入门与实战/第4章.md",
     "PDF阅读笔记/Python机器学习入门与实战/第3章.md",
     "PDF阅读笔记/Python机器学习入门与实战/第2章.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第1章.md",
-    "PDF阅读笔记/PyTorch深度学习-pdf/00总纲.md",
-    "PDF阅读笔记/DL_cn/第1章.md",
     "Python canvas.canvas"
   ]
 }
