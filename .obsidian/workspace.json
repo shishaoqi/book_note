@@ -1,68 +1,41 @@
 {
   "main": {
-    "id": "070a8b3464bac09b",
+    "id": "013bc6f350250da4",
     "type": "split",
     "children": [
       {
-        "id": "eb2e72a475f0899c",
+        "id": "ac6b4d03d28670ae",
         "type": "tabs",
         "children": [
           {
-            "id": "27a5dd697980dd30",
+            "id": "29fbdb2572203518",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDF阅读笔记/微习惯笔记/为什么要做这个笔记.md",
+                "file": "Linux 笔记/CentOS/centOS 安装docker、docker-compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "为什么要做这个笔记"
-            }
-          },
-          {
-            "id": "6320b74932d181a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PDF阅读笔记/微习惯笔记/阅读笔记.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "阅读笔记"
-            }
-          },
-          {
-            "id": "e84f36cf246ba613",
-            "type": "leaf",
-            "state": {
-              "type": "mindmapView",
-              "state": {
-                "file": "Untitled mindmap.md"
-              },
-              "icon": "blocks",
-              "title": "Untitled mindmap"
+              "title": "centOS 安装docker、docker-compose"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "708a65328e24ad2d",
+    "id": "5ae9a0a9fe5336d3",
     "type": "split",
     "children": [
       {
-        "id": "a9c52d7969ddd056",
+        "id": "96db7f40448f054a",
         "type": "tabs",
         "children": [
           {
-            "id": "8b9455f720e52dca",
+            "id": "5169c0e90312cc35",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
-            "id": "4c059b4bc8ee034e",
+            "id": "cec795fe42509e8c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -92,7 +65,7 @@
             }
           },
           {
-            "id": "c901a70aa4134e39",
+            "id": "739522360ba65e1d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -105,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 370.5
   },
   "right": {
-    "id": "ac3a5d477364856c",
+    "id": "ca3e73a9247385e6",
     "type": "split",
     "children": [
       {
-        "id": "0197309abf0d496f",
+        "id": "3731d7fa9ac23b55",
         "type": "tabs",
         "children": [
           {
-            "id": "92f4b30804ec21c8",
+            "id": "33a83ce5cfc7d75b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled mindmap.md",
+                "file": "AI/模型下载.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Untitled mindmap"
+              "title": "模型下载 的反向链接列表"
             }
           },
           {
-            "id": "68df0998780f5574",
+            "id": "1a433e334d79284c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
+                "file": "Python/python语法学习/python 编程：从入门到实践（第2版）/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Python编程：从入门到实践（第2版）目录"
+              "title": "Outgoing links from README"
             }
           },
           {
-            "id": "8b2b74b796ccd2ec",
+            "id": "9116b24d4554b862",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -164,65 +137,64 @@
             }
           },
           {
-            "id": "96d5aaa79c0cdd4c",
+            "id": "a49465597c831636",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled mindmap.md",
+                "file": "Python/python语法学习/python 编程：从入门到实践（第2版）/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled mindmap"
+              "title": "Outline of README"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 456.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "vscode-editor:Create Code File": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "vscode-editor:新建代码文件": false
     }
   },
   "floating": {
-    "id": "81aca124e3ef1757",
+    "id": "c802fef6ceb5a221",
     "type": "floating",
     "children": [
       {
-        "id": "15f556e6b73e6ca7",
+        "id": "3e805c98d7722924",
         "type": "window",
         "children": [
           {
-            "id": "d9f013cfb3e2bb69",
+            "id": "7cca8d3597a6728c",
             "type": "tabs",
             "children": [
               {
-                "id": "573b60b2ae65bec2",
+                "id": "29642506a0d2c300",
                 "type": "leaf",
                 "state": {
                   "type": "pdf",
                   "state": {
                     "file": "PDF/Python编程：从入门到实践（第2版）.pdf",
-                    "page": 51,
-                    "left": -7,
-                    "top": 740,
-                    "zoom": 2.1470588235294117
+                    "page": 106,
+                    "left": -393,
+                    "top": 4,
+                    "zoom": 1.2
                   },
                   "icon": "lucide-file-text",
                   "title": "Python编程：从入门到实践（第2版）"
@@ -232,63 +204,57 @@
           }
         ],
         "direction": "vertical",
-        "x": 0,
-        "y": 0,
-        "width": 724,
-        "height": 1080,
+        "x": 202,
+        "y": 25,
+        "width": 2145,
+        "height": 1376,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "e84f36cf246ba613",
+  "active": "29fbdb2572203518",
   "lastOpenFiles": [
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
+    "Linux 笔记/screen 命令.md",
+    "Linux 笔记/CentOS/centOS 安装docker、docker-compose.md",
+    "Linux 笔记/CentOS",
+    "PDF/Python编程：从入门到实践（第2版）.pdf",
+    "Linux 笔记/docker/docker_command.md",
+    "Linux 笔记/docker/install_ubuntu.md",
+    "Linux 笔记/docker/镜像操作命令.md",
+    "Linux 笔记/prometheus/docker 安装 prometheus.md",
+    "Linux 笔记/prometheus/installation.md",
+    "Linux 笔记/prometheus/prometheus配置.md",
+    "Linux 笔记/服务器-操作、查询、检测/ubuntu 静态ip设置.md",
     "Untitled mindmap.md",
-    "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
     "PDF阅读笔记/微习惯笔记/阅读笔记.md",
     "PDF阅读笔记/微习惯笔记/为什么要做这个笔记.md",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/dict.py",
     "PDF阅读笔记/微习惯笔记",
-    "Untitled",
-    "Javascript",
-    "PDF/Python编程：从入门到实践（第2版）.pdf",
-    "PDF",
+    "Linux 笔记/网络/vpn协议.png",
+    "Linux 笔记/服务器问题解决/使用密钥文件连接服务器.md",
+    "Linux 笔记/服务器-操作、查询、检测/ubuntu 测试带宽.md",
+    "Linux 笔记/服务器-操作、查询、检测/curl 检测网络.md",
+    "Linux 笔记/服务器-操作、查询、检测/网络监测.md",
+    "Linux 笔记/服务器-操作、查询、检测/网络测试.md",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/chapter02/param_number.py",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/chapter02/hello_world.py",
+    "Obsidian操作学习/Obsidian 入门目录.md",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/class.py",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/combine.py",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/input.py",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/if.py",
+    "Obsidian操作学习/markdown演示文件.md",
+    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/functions.py",
+    "AI/模型下载.md",
+    "Python编程：从入门到实践（第2版）.pdf.md",
     "go/go语法目录.md",
-    "go/myRoutinePools/options.go",
-    "go/myRoutinePools/myRoutinePool.go",
-    "go/myRoutinePools/README.md",
-    "go/tanchishe.py",
-    "Python/python语法学习/Python学习手册（原书第4版）/Python学习手册（原书第4版）目录.md",
-    "Python/python目录.md",
-    "Python/python 环境与工具/环境报错.md",
-    "Python/python 环境与工具/vscode 开启 python 调试.md",
-    "Python/python 环境与工具/pip 笔记.md",
-    "Python/python 环境与工具/jupyter.md",
-    "Python/python 环境与工具/conda 笔记.md",
-    "Python canvas.canvas",
+    "Obsidian操作学习/进阶.md",
+    "进阶^2. 嵌入笔记.md",
+    "README.md",
     "PDF阅读笔记/机器学习基础-pdf/images/生成模型.png",
     "PDF阅读笔记/普林斯顿微积分读本/img/极限.png",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
-    "PDF阅读笔记/机器学习基础-pdf/第1章.md",
-    "PDF阅读笔记/机器学习基础-pdf/概念.md",
-    "PDF阅读笔记/机器学习基础-pdf/README.md",
-    "PDF阅读笔记/普林斯顿微积分读本/第3章 极限导论.md",
-    "PDF阅读笔记/时间人格：为什么你的时间管理没有用/序章.md",
-    "PDF阅读笔记/向上认知/第一部分.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第4章.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第3章.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第2章.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第1章.md",
-    "PDF阅读笔记/PyTorch深度学习-pdf/00总纲.md",
-    "PDF阅读笔记/DL_cn/第1章.md",
-    "PDF阅读笔记/README.md",
-    "Linux 笔记/网络/vpn协议.png",
-    "AI/AI子项目/gradio/start_learn/flagged/output 1/a86dd003c76bf39c419c/09f.png",
-    "AI/AI子项目/gradio/start_learn/flagged/output 1/5d16af6cda198b570c95/09f.png",
-    "AI/AI子项目/gradio/start_learn/flagged/initial_image/db20134b314c4e947888/2018052516512966.jpg",
-    "AI/AI子项目/gradio/start_learn/flagged/initial_image/71c92ef7f260e2f1f753/2018052516512966.jpg",
-    "网络/vpn协议.png",
-    "PDF/机器学习基础-pdf/images/生成模型.png"
+    "Python canvas.canvas"
   ]
 }
