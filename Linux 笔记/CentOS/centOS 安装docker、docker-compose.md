@@ -23,14 +23,14 @@
 ```
 
 5. **启动 Docker 服务并设置开机自启**：
-   ```bash
+```bash
    sudo systemctl start docker
    sudo systemctl enable docker
-   ```
+```
 6. **验证 Docker 是否安装成功**：
-   ```bash
+```bash
    docker --version
-   ```
+```
    如果输出类似 `Docker version 20.10.xx`，则说明安装成功。
 
 ### 安装 Docker Compose
@@ -42,19 +42,19 @@
 	最新版本请到	 https://github.com/docker/compose/releases  查看
 
 2. **赋予执行权限**：
-   ```bash
+```bash
    sudo chmod +x /usr/local/bin/docker-compose
-   ```
+```
 3. **验证 Docker Compose 是否安装成功**：
-   ```bash
+```bash
    docker-compose --version
-   ```
+```
    如果输出类似 `Docker Compose version v2.32.2`，则说明安装成功。
 
 ### 配置 Docker 镜像加速（可选）
 在国内网络环境下，访问 Docker Hub 可能较慢，可以通过配置国内镜像源加速拉取镜像：
 1. **创建或编辑配置文件**：
-   ```bash
+```bash
    sudo tee /etc/docker/daemon.json <<-'EOF'
    {
        "registry-mirrors": [
@@ -64,10 +64,11 @@
        ]
    }
    EOF
-   ```
+```
+
 2. **重启 Docker 服务**：
-   ```bash
+```bash
    sudo systemctl daemon-reload
    sudo systemctl restart docker
-   ```
+```
    配置完成后，拉取镜像的速度会显著提升。
