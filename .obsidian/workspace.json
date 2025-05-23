@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux 笔记/CentOS/centOS 安装docker、docker-compose.md",
+                "file": "Linux 笔记/prometheus/docker-compose 配置文件.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "centOS 安装docker、docker-compose"
+              "title": "docker-compose 配置文件"
             }
           }
         ]
@@ -215,16 +215,18 @@
   },
   "active": "29fbdb2572203518",
   "lastOpenFiles": [
+    "Linux 笔记/prometheus/docker 安装 prometheus.md",
+    "Linux 笔记/prometheus/docker-compose 配置文件.md",
+    "Linux 笔记/服务器问题解决/切换到 root.md",
     "PDF/Python编程：从入门到实践（第2版）.pdf",
+    "Linux 笔记/prometheus/prometheus配置.md",
     "Linux 笔记/CentOS/centOS 安装docker、docker-compose.md",
     "Linux 笔记/screen 命令.md",
     "Linux 笔记/CentOS",
     "Linux 笔记/docker/docker_command.md",
     "Linux 笔记/docker/install_ubuntu.md",
     "Linux 笔记/docker/镜像操作命令.md",
-    "Linux 笔记/prometheus/docker 安装 prometheus.md",
     "Linux 笔记/prometheus/installation.md",
-    "Linux 笔记/prometheus/prometheus配置.md",
     "Linux 笔记/服务器-操作、查询、检测/ubuntu 静态ip设置.md",
     "Untitled mindmap.md",
     "PDF阅读笔记/微习惯笔记/阅读笔记.md",
@@ -250,7 +252,6 @@
     "Python编程：从入门到实践（第2版）.pdf.md",
     "go/go语法目录.md",
     "Obsidian操作学习/进阶.md",
-    "进阶^2. 嵌入笔记.md",
     "PDF阅读笔记/机器学习基础-pdf/images/生成模型.png",
     "PDF阅读笔记/普林斯顿微积分读本/img/极限.png",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
