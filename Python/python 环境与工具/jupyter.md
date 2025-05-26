@@ -19,27 +19,27 @@ python -m ipykernel install --user --name=xxx --display-name="xxxx"
 
 1. **激活Conda环境**：
    使用以下命令激活您创建的Conda环境：
-   ```bash
+```bash
    conda activate myenv
-   ```
+```
 
 2. **安装IPython**：
    在激活的环境中安装IPython。这将确保环境具有Jupyter所需的内核：
-   ```bash
+```bash
    conda install ipython
-   ```
+```
 
 3. **安装ipykernel**：
    接下来，安装`ipykernel`，这是一个轻量级的IPython内核，用于Jupyter：
-   ```bash
+```bash
    conda install ipykernel
-   ```
+```
 
 4. **注册内核**：
    使用`ipykernel`注册您的Conda环境作为Jupyter内核：
-   ```bash
+```bash
    python -m ipykernel install --user --name=myenv --display-name="Python (myenv)"
-   ```
+```
    这里 `myenv` 是您的环境名称，`--display-name` 是在Jupyter中显示的名称。
 
 5. **检查内核**：
