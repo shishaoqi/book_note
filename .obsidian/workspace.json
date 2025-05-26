@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Google Codelab/学习 Gemini Code Assist.md",
+                "file": "AI/Qwen-Agent/如何学习这个框架.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "学习 Gemini Code Assist"
+              "title": "如何学习这个框架"
             }
           }
         ]
@@ -232,11 +232,13 @@
   },
   "active": "29fbdb2572203518",
   "lastOpenFiles": [
+    "AI/Google Codelab/学习 Gemini Code Assist.md",
+    "AI/Qwen-Agent/如何学习这个框架.md",
+    "AI/Qwen-Agent",
     "Python/python 环境与工具/pip 笔记.md",
     "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
     "Python/python 环境与工具/conda 笔记.md",
     "Python/python 环境与工具/jupyter.md",
-    "AI/Google Codelab/学习 Gemini Code Assist.md",
     "PDF阅读笔记/微习惯笔记/阅读笔记.md",
     "AI/Google Codelab",
     "PDF阅读笔记/微习惯笔记/为什么要做这个笔记.md",
@@ -267,7 +269,6 @@
     "Obsidian操作学习/Obsidian 入门目录.md",
     "Python/python语法学习/python 编程：从入门到实践（第2版）/src/class.py",
     "Python/python语法学习/python 编程：从入门到实践（第2版）/src/combine.py",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/input.py",
     "PDF阅读笔记/机器学习基础-pdf/images/生成模型.png",
     "PDF阅读笔记/普林斯顿微积分读本/img/极限.png",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
