@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "ac6b4d03d28670ae",
+        "id": "85254ec803d18c55",
         "type": "tabs",
         "children": [
           {
-            "id": "29fbdb2572203518",
+            "id": "785cea2da438bc86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/VS Code 调试设置.md",
+                "file": "Linux 笔记/Git/git 基础.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "VS Code 调试设置"
+              "title": "git 基础"
             }
           }
         ]
@@ -61,7 +61,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
@@ -172,10 +172,14 @@
       "vscode-editor:新建代码文件": false
     }
   },
-  "active": "29fbdb2572203518",
+  "active": "785cea2da438bc86",
   "lastOpenFiles": [
-    "Python/python 环境与工具/conda 笔记.md",
+    "Linux 笔记/Git/Pasted image 20250604183318.png",
+    "Linux 笔记/Git/git命令.md",
+    "Linux 笔记/Git/git 基础.md",
     "go/VS Code 调试设置.md",
+    "Linux 笔记/Git",
+    "Python/python 环境与工具/conda 笔记.md",
     "PDF/Python编程：从入门到实践（第2版）.pdf",
     "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
     "AI/Qwen-Agent/如何学习这个框架.md",
@@ -204,13 +208,9 @@
     "Linux 笔记/服务器问题解决/使用密钥文件连接服务器.md",
     "Linux 笔记/服务器-操作、查询、检测/ubuntu 测试带宽.md",
     "Linux 笔记/服务器-操作、查询、检测/curl 检测网络.md",
-    "Linux 笔记/服务器-操作、查询、检测/网络监测.md",
-    "Linux 笔记/服务器-操作、查询、检测/网络测试.md",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
     "Python/python语法学习/python 编程：从入门到实践（第2版）/src/chapter02/param_number.py",
     "Python/python语法学习/python 编程：从入门到实践（第2版）/src/chapter02/hello_world.py",
     "Python/python语法学习/python 编程：从入门到实践（第2版）/src/class.py",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/combine.py",
     "PDF阅读笔记/机器学习基础-pdf/images/生成模型.png",
     "PDF阅读笔记/普林斯顿微积分读本/img/极限.png",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
