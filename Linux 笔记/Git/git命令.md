@@ -23,6 +23,10 @@ git reset --hard HEAD^
 https://www.jianshu.com/p/0f1fbd50b4be
 git commit --amend
 
+### 撤销更改
+git checkout -- file
+即直接丢弃**工作区**的修改
+
 ### 取消暂存
 git reset HEAD <文件>
 
@@ -44,7 +48,6 @@ git show -5 显示最后 5 次的文件改变的具体内容
 
 ### 增量更新打包
 git diff  59082e980 533132c8 --name-only | xargs tar -czvf ../updateUserconsole.tar.gz
-
 
 ### 拉取远程分支
 git checkout -b 本地分支名xxx origin/远程分支名xxx
@@ -76,8 +79,6 @@ git push origin master   //提交到远程服务器
 git push --delete origin \<remote branchName\>
 git branch -m \<local branchName\> \<new local branchName\>
 git push origin \<new local branchName\>
-
-
 
 
 ### 提交到远程库

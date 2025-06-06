@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linux 笔记/Git/git 基础.md",
+                "file": "Mac/快捷键.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git 基础"
+              "title": "快捷键"
             }
           }
         ]
@@ -174,10 +174,15 @@
   },
   "active": "785cea2da438bc86",
   "lastOpenFiles": [
-    "Linux 笔记/Git/Pasted image 20250604183318.png",
     "Linux 笔记/Git/git命令.md",
+    "Mac/快捷键.md",
+    "Mac",
     "Linux 笔记/Git/git 基础.md",
     "go/VS Code 调试设置.md",
+    "go/VsCode go commands.md",
+    "AI/Google/Gemini",
+    "AI/Google",
+    "Linux 笔记/Git/Pasted image 20250604183318.png",
     "Linux 笔记/Git",
     "Python/python 环境与工具/conda 笔记.md",
     "PDF/Python编程：从入门到实践（第2版）.pdf",
@@ -207,10 +212,6 @@
     "Linux 笔记/网络/vpn协议.png",
     "Linux 笔记/服务器问题解决/使用密钥文件连接服务器.md",
     "Linux 笔记/服务器-操作、查询、检测/ubuntu 测试带宽.md",
-    "Linux 笔记/服务器-操作、查询、检测/curl 检测网络.md",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/chapter02/param_number.py",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/chapter02/hello_world.py",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/src/class.py",
     "PDF阅读笔记/机器学习基础-pdf/images/生成模型.png",
     "PDF阅读笔记/普林斯顿微积分读本/img/极限.png",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
