@@ -1,56 +1,24 @@
 {
   "main": {
-    "id": "070a8b3464bac09b",
+    "id": "013bc6f350250da4",
     "type": "split",
     "children": [
       {
-        "id": "eb2e72a475f0899c",
+        "id": "85254ec803d18c55",
         "type": "tabs",
         "children": [
           {
-            "id": "27a5dd697980dd30",
+            "id": "785cea2da438bc86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PHP/yii2/yii2安装笔记.md",
+                "file": "Linux 笔记/Git/git命令.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "yii2安装笔记"
-            }
-          },
-          {
-            "id": "1f89cf7ecb2287f7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
-                "page": 19,
-                "left": -225,
-                "top": 39,
-                "zoom": 0.9
-              },
-              "icon": "lucide-file-text",
-              "title": "好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》"
-            }
-          },
-          {
-            "id": "e84f36cf246ba613",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
-                "page": 13,
-                "left": -225,
-                "top": 39,
-                "zoom": 0.9
-              },
-              "icon": "lucide-file-text",
-              "title": "好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》"
+              "title": "git命令"
             }
           }
         ]
@@ -59,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "708a65328e24ad2d",
+    "id": "5ae9a0a9fe5336d3",
     "type": "split",
     "children": [
       {
-        "id": "a9c52d7969ddd056",
+        "id": "96db7f40448f054a",
         "type": "tabs",
         "children": [
           {
-            "id": "8b9455f720e52dca",
+            "id": "5169c0e90312cc35",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -76,11 +44,11 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
-            "id": "4c059b4bc8ee034e",
+            "id": "cec795fe42509e8c",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -93,11 +61,11 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-search",
-              "title": "Search"
+              "title": "搜索"
             }
           },
           {
-            "id": "c901a70aa4134e39",
+            "id": "739522360ba65e1d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -110,23 +78,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 341.5
   },
   "right": {
-    "id": "ac3a5d477364856c",
+    "id": "ca3e73a9247385e6",
     "type": "split",
     "children": [
       {
-        "id": "0197309abf0d496f",
+        "id": "3731d7fa9ac23b55",
         "type": "tabs",
         "children": [
           {
-            "id": "92f4b30804ec21c8",
+            "id": "33a83ce5cfc7d75b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
+                "file": "AI/模型下载.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》"
+              "title": "模型下载 的反向链接列表"
             }
           },
           {
-            "id": "68df0998780f5574",
+            "id": "1a433e334d79284c",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
+                "file": "Python/python语法学习/python 编程：从入门到实践（第2版）/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Python编程：从入门到实践（第2版）目录"
+              "title": "Outgoing links from README"
             }
           },
           {
-            "id": "8b2b74b796ccd2ec",
+            "id": "9116b24d4554b862",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -169,90 +137,84 @@
             }
           },
           {
-            "id": "96d5aaa79c0cdd4c",
+            "id": "a49465597c831636",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
+                "file": "Python/python语法学习/python 编程：从入门到实践（第2版）/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》"
+              "title": "Outline of README"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 456.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "vscode-editor:Create Code File": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "vscode-editor:新建代码文件": false
     }
   },
-  "active": "27a5dd697980dd30",
+  "active": "785cea2da438bc86",
   "lastOpenFiles": [
-    "Linux 笔记/Git/git命令.md",
     "PHP/yii2/yii2安装笔记.md",
     "PHP/yii2",
     "PHP",
     "Mac/快捷键.md",
-    "go/VsCode go commands.md",
-    "go/VS Code 调试设置.md",
-    "PDF阅读笔记/微习惯笔记/为什么要做这个笔记.md",
+    "Linux 笔记/Git/git命令.md",
     "Mac",
+    "Linux 笔记/Git/git 基础.md",
+    "go/VS Code 调试设置.md",
+    "go/VsCode go commands.md",
+    "AI/Google/Gemini",
+    "AI/Google",
+    "Linux 笔记/Git/Pasted image 20250604183318.png",
+    "Linux 笔记/Git",
+    "Python/python 环境与工具/conda 笔记.md",
+    "PDF/Python编程：从入门到实践（第2版）.pdf",
     "PDF/好习惯养成攻略-套装共4册《微习惯》《如何戒掉坏习惯》《坚持，一种可以养成的习惯》《从行动开始-自我管理的科学》.pdf",
-    "go/myRoutinePools/options.go",
-    "go/myRoutinePools/myRoutinePool.go",
-    "go/myRoutinePools/README.md",
-    "go/tanchishe.py",
-    "go/routinePool.go",
-    "go/qsort.go",
-    "go/myRoutinePools",
-    "go/go语法目录.md",
-    "Untitled mindmap.md",
-    "Python/python语法学习/python 编程：从入门到实践（第2版）/Python编程：从入门到实践（第2版）目录.md",
-    "Python/python语法学习/Python学习手册（原书第4版）/Python学习手册（原书第4版）目录.md",
-    "Python/python目录.md",
-    "Python/python 环境与工具/环境报错.md",
-    "Python/python 环境与工具/vscode 开启 python 调试.md",
+    "AI/Qwen-Agent/如何学习这个框架.md",
+    "AI/Google Codelab/学习 Gemini Code Assist.md",
+    "AI/Qwen-Agent",
     "Python/python 环境与工具/pip 笔记.md",
     "Python/python 环境与工具/jupyter.md",
-    "Python/python 环境与工具/conda 笔记.md",
-    "Python canvas.canvas",
+    "PDF阅读笔记/微习惯笔记/阅读笔记.md",
+    "AI/Google Codelab",
+    "PDF阅读笔记/微习惯笔记/为什么要做这个笔记.md",
+    "Linux 笔记/prometheus/prometheus配置.md",
+    "Linux 笔记/prometheus/docker 安装 prometheus.md",
+    "Linux 笔记/prometheus/docker-compose 配置文件.md",
+    "Linux 笔记/服务器问题解决/切换到 root.md",
+    "Linux 笔记/CentOS/centOS 安装docker、docker-compose.md",
+    "Linux 笔记/screen 命令.md",
+    "Linux 笔记/docker/docker_command.md",
+    "Linux 笔记/docker/install_ubuntu.md",
+    "Linux 笔记/docker/镜像操作命令.md",
+    "Linux 笔记/prometheus/installation.md",
+    "Linux 笔记/服务器-操作、查询、检测/ubuntu 静态ip设置.md",
+    "Untitled mindmap.md",
+    "Linux 笔记/网络/vpn协议.png",
+    "Linux 笔记/服务器问题解决/使用密钥文件连接服务器.md",
     "PDF阅读笔记/机器学习基础-pdf/images/生成模型.png",
     "PDF阅读笔记/普林斯顿微积分读本/img/极限.png",
     "PDF阅读笔记/Python机器学习入门与实战/img/蘑菇.png",
-    "PDF阅读笔记/机器学习基础-pdf/第1章.md",
-    "PDF阅读笔记/机器学习基础-pdf/概念.md",
-    "PDF阅读笔记/机器学习基础-pdf/README.md",
-    "PDF阅读笔记/普林斯顿微积分读本/第3章 极限导论.md",
-    "PDF阅读笔记/时间人格：为什么你的时间管理没有用/序章.md",
-    "PDF阅读笔记/微习惯笔记/阅读笔记.md",
-    "PDF阅读笔记/向上认知/第一部分.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第4章.md",
-    "PDF阅读笔记/Python机器学习入门与实战/第3章.md",
-    "Linux 笔记/网络/vpn协议.png",
-    "Linux 笔记/Git/Pasted image 20250604183318.png",
-    "AI/AI子项目/gradio/start_learn/flagged/output 1/a86dd003c76bf39c419c/09f.png",
-    "AI/AI子项目/gradio/start_learn/flagged/output 1/5d16af6cda198b570c95/09f.png",
-    "AI/AI子项目/gradio/start_learn/flagged/initial_image/db20134b314c4e947888/2018052516512966.jpg",
-    "AI/AI子项目/gradio/start_learn/flagged/initial_image/71c92ef7f260e2f1f753/2018052516512966.jpg",
-    "网络/vpn协议.png"
+    "Python canvas.canvas"
   ]
 }

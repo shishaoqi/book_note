@@ -19,6 +19,11 @@ git reset --hard commit_id
 ### 回退上一次
 git reset --hard HEAD^
 
+### 取消暂存
+git reset HEAD --
+取消暂存别名：
+git config --global alias.unstage 'reset HEAD --'
+
 ### 修改提交信息
 https://www.jianshu.com/p/0f1fbd50b4be
 git commit --amend
