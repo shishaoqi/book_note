@@ -23,6 +23,8 @@ git reset --hard HEAD^
 git reset HEAD --
 取消暂存别名：
 git config --global alias.unstage 'reset HEAD --'
+### 取消指定文件暂存
+git reset HEAD <文件>
 
 ### 修改提交信息
 https://www.jianshu.com/p/0f1fbd50b4be
@@ -31,9 +33,6 @@ git commit --amend
 ### 撤销更改
 git checkout -- file
 即直接丢弃**工作区**的修改
-
-### 取消暂存
-git reset HEAD <文件>
 
 ### 取消本地增加的文件
 git clean -df
@@ -49,10 +48,6 @@ git whatchanged --stat 每次修改的文件列表, 及文件修改的统计
 git show 显示最后一次的文件改变的具体内容  
 git show commitId 显示某个 commitid 改变的具体内容
 git show -5 显示最后 5 次的文件改变的具体内容
-
-
-### 增量更新打包
-git diff  59082e980 533132c8 --name-only | xargs tar -czvf ../updateUserconsole.tar.gz
 
 ### 拉取远程分支
 git checkout -b 本地分支名xxx origin/远程分支名xxx
@@ -77,7 +72,7 @@ git push origin master   //提交到远程服务器
     git branch -m 原名 新
 
 如果是当前，那么可以使用加上新名字
-    git branch -m 原名
+    git branch -m  新分支名
 
 ### 重命名远程分支
 在git中重命名远程分支，其实就是先删除远程分支，然后重命名本地分支，再重新提交一个远程分支。
@@ -123,3 +118,6 @@ git push origin :refs/tags/v1.4-lw
 
 ### 一次性推送很多标签
 git push origin --tags
+
+### 增量更新打包
+git diff  59082e980 533132c8 --name-only | xargs tar -czvf ../updateUserconsole.tar.gz
